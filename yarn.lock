@@ -1110,6 +1110,12 @@ debug@2.2.0, debug@^2.1.1, debug@^2.2.0, debug@~2.2.0:
   dependencies:
     ms "0.7.1"
 
+debug@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  dependencies:
+    ms "2.0.0"
+
 decamelize@^1.1.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
@@ -1239,10 +1245,6 @@ es6-map@^0.1.3:
     es6-symbol "~3.1.0"
     event-emitter "~0.3.4"
 
-es6-promise@^3.1.2:
-  version "3.3.1"
-  resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-3.3.1.tgz#a08cdde84ccdbf34d027a1451bc91d4bcd28a613"
-
 es6-set@~0.1.3:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/es6-set/-/es6-set-0.1.4.tgz#9516b6761c2964b92ff479456233a247dc707ce8"
@@ -1334,6 +1336,10 @@ espree@^3.1.6:
 esprima@^2.6.0:
   version "2.7.3"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-2.7.3.tgz#96e3b70d5779f6ad49cd032673d1c312767ba581"
+
+esprima@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.0.tgz#4499eddcd1110e0b218bacf2fa7f7f59f55ca804"
 
 esrecurse@^4.1.0:
   version "4.1.0"
@@ -1528,6 +1534,10 @@ form-data@~2.0.0:
     asynckit "^0.4.0"
     combined-stream "^1.0.5"
     mime-types "^2.1.11"
+
+format-util@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/format-util/-/format-util-1.0.3.tgz#032dca4a116262a12c43f4c3ec8566416c5b2d95"
 
 fs-exists-sync@^0.1.0:
   version "0.1.0"
@@ -2171,12 +2181,19 @@ js-tokens@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-2.0.0.tgz#79903f5563ee778cc1162e6dcf1a0027c97f9cb5"
 
-js-yaml@3.6.1, js-yaml@3.x.x, js-yaml@^3.5.1, js-yaml@^3.6.0:
+js-yaml@3.6.1, js-yaml@3.x.x, js-yaml@^3.5.1:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.6.1.tgz#6e5fe67d8b205ce4d22fad05b7781e8dadcc4b30"
   dependencies:
     argparse "^1.0.7"
     esprima "^2.6.0"
+
+js-yaml@^3.10.0:
+  version "3.11.0"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.11.0.tgz#597c1a8bd57152f26d622ce4117851a51f5ebaef"
+  dependencies:
+    argparse "^1.0.7"
+    esprima "^4.0.0"
 
 jsbn@~0.1.0:
   version "0.1.0"
@@ -2218,16 +2235,14 @@ json-schema-generator@stoplightio/json-schema-generator:
     pretty-data "^0.40.0"
     request "^2.47.0"
 
-json-schema-ref-parser@^3.1.1:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-3.1.2.tgz#a38ecb7774f87f32e7eb9723d5921390e76a9a42"
+json-schema-ref-parser@^4.0.4:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/json-schema-ref-parser/-/json-schema-ref-parser-4.1.1.tgz#f7900efc15f693432d4ac6519dc1ee09c01aa40b"
   dependencies:
     call-me-maybe "^1.0.1"
-    debug "^2.2.0"
-    es6-promise "^3.1.2"
-    js-yaml "^3.6.0"
-    ono "^2.2.1"
-    z-schema "^3.17.0"
+    debug "^3.1.0"
+    js-yaml "^3.10.0"
+    ono "^4.0.3"
 
 json-schema@0.2.3:
   version "0.2.3"
@@ -2364,7 +2379,7 @@ lodash.escape@^3.0.0:
   dependencies:
     lodash._root "^3.0.0"
 
-lodash.get@^4.1.2:
+lodash.get@^4.0.0, lodash.get@^4.1.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
 
@@ -2379,6 +2394,10 @@ lodash.isarray@^3.0.0:
 lodash.isempty@^4.2.1:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.isempty/-/lodash.isempty-4.4.0.tgz#6f86cbedd8be4ec987be9aaf33c9684db1b31e7e"
+
+lodash.isequal@^4.0.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
 
 lodash.isplainobject@^4.0.4:
   version "4.0.6"
@@ -2625,6 +2644,10 @@ ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
 
+ms@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
+
 multipipe@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/multipipe/-/multipipe-0.1.2.tgz#2a8f2ddf70eed564dff2d57f1e1a137d9f05078b"
@@ -2744,9 +2767,11 @@ onetime@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
 
-ono@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/ono/-/ono-2.2.1.tgz#722fc7e8429ff733887a80e743fb38bbd985b003"
+ono@^4.0.2, ono@^4.0.3:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/ono/-/ono-4.0.5.tgz#bc62740493a5c1c08b2c21e60cbb0e5c56ab7de2"
+  dependencies:
+    format-util "^1.0.3"
 
 optimist@^0.6.1:
   version "0.6.1"
@@ -3415,18 +3440,17 @@ swagger-methods@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/swagger-methods/-/swagger-methods-1.0.0.tgz#b39c77957d305a6535c0a1e015081185b99d61fc"
 
-swagger-parser@4.0.0-beta.2:
-  version "4.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/swagger-parser/-/swagger-parser-4.0.0-beta.2.tgz#a9185c4f7c31f9fe75181a9137330d4195e9fb5f"
+swagger-parser@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/swagger-parser/-/swagger-parser-4.0.1.tgz#c6457de387df7649f057b04513a442109b93cba8"
   dependencies:
     call-me-maybe "^1.0.1"
-    debug "^2.2.0"
-    es6-promise "^3.1.2"
-    json-schema-ref-parser "^3.1.1"
-    ono "^2.2.1"
+    debug "^3.1.0"
+    json-schema-ref-parser "^4.0.4"
+    ono "^4.0.2"
     swagger-methods "^1.0.0"
     swagger-schema-official "2.0.0-bab6bed"
-    z-schema "^3.17.0"
+    z-schema "^3.18.4"
 
 swagger-schema-official@2.0.0-bab6bed:
   version "2.0.0-bab6bed"
@@ -3648,6 +3672,10 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "~1.0.0"
     spdx-expression-parse "~1.0.0"
 
+validator@^10.0.0:
+  version "10.2.0"
+  resolved "https://registry.yarnpkg.com/validator/-/validator-10.2.0.tgz#61d6b10c3d5c9f368c75c2ce8ca2b792522eaafa"
+
 validator@^5.0.0:
   version "5.7.0"
   resolved "https://registry.yarnpkg.com/validator/-/validator-5.7.0.tgz#7a87a58146b695ac486071141c0c49d67da05e5c"
@@ -3755,11 +3783,21 @@ yaml-ast-parser@0.0.29:
   dependencies:
     underscore "^1.8.3"
 
-z-schema@^3.16.1, z-schema@^3.17.0:
+z-schema@^3.16.1:
   version "3.18.0"
   resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-3.18.0.tgz#70d037a6c0de12df63cc121ce6ae96eeff7f8784"
   dependencies:
     lodash.get "^4.1.2"
     validator "^5.0.0"
+  optionalDependencies:
+    commander "^2.7.1"
+
+z-schema@^3.18.4:
+  version "3.22.0"
+  resolved "https://registry.yarnpkg.com/z-schema/-/z-schema-3.22.0.tgz#e1326063cb438f348c648350770258ff5e20a22b"
+  dependencies:
+    lodash.get "^4.0.0"
+    lodash.isequal "^4.0.0"
+    validator "^10.0.0"
   optionalDependencies:
     commander "^2.7.1"

@@ -24,7 +24,7 @@
     "lodash": "4.x.x",
     "raml-1-parser": "1.1.x",
     "request": "2.x.x",
-    "swagger-parser": "4.0.0-beta.2"
+    "swagger-parser": "4.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
